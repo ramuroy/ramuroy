@@ -2,12 +2,13 @@
 
 <!-- Animated typing header -->
 <a href="https://github.com/ramuroy">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=640&height=60&lines=Embedded+Systems+%26+IoT+Enthusiast;Arduino+%7C+ESP32+%7C+FreeRTOS+Developer;PCB+Designer+in+KiCad;Always+building+something+that+blinks+%E2%9A%A1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=680&height=60&lines=Embedded+Linux+%26+Firmware+Engineer;Yocto+%C2%B7+ESP-IDF+%C2%B7+STM32+%C2%B7+Rust;On-Device+ML+%26+Voice+Systems;From+bare-metal+firmware+to+custom+Linux+distros+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
 </a>
 
-<!-- Visitor badge + followers -->
+<!-- Badges -->
 <img src="https://komarev.com/ghpvc/?username=ramuroy&label=Profile%20Views&color=00e5ff&style=flat-square" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/ramuroy?label=Followers&style=flat-square&color=00e5ff" alt="Followers" />
+<img src="https://img.shields.io/badge/Open%20to-Embedded%20Roles-1f9b4e?style=flat-square" alt="Open to roles" />
 
 </div>
 
@@ -16,34 +17,67 @@
 ### 🦾 About Me
 
 ```c
-struct Developer {
+struct Engineer {
     char  name[]      = "Ramu Roy";
-    int   age         = 21;
-    char  focus[]     = "Embedded Systems & IoT";
-    char  toolkit[]   = "Arduino, ESP32, FreeRTOS, KiCad";
-    char  superpower[]= "Organizing chaos & catching every typo";
-    bool  caffeinated = true;
+    char  role[]      = "Embedded Linux & Firmware Engineer";
+    char  focus[]     = "Embedded Linux | Firmware | On-Device ML";
+    char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
+    char  building[]  = "eOS — a custom Yocto Linux distro for the Raspberry Pi 5";
+    char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel BlueScope";
+    char  studies[]   = "B.Tech ECE, RGUKT Srikakulam (CGPA 8.3/10)";
+    bool  ships_real_hardware = true;
 };
 ```
 
-- 🔧 I build things that **sense, blink, beep, and talk to each other** — from fire detectors to RTOS weather loggers.
-- 🛠️ I design my own **PCBs in KiCad** — power supplies, buck converters, voltage regulators, the works.
-- 🧠 Currently leveling up in **real-time multitasking (FreeRTOS)** and **ESP32 communication protocols (SPI, IoT)**.
-- 📋 Off the bench, I'm the person who keeps projects **organized, tracked, and grammatically flawless** (ex-proofreader 👀).
+- ⚙️ I work **the whole stack** — from bare-metal STM32 firmware and ESP-IDF, up through Yocto-based custom Linux, to on-device ML.
+- 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel BlueScope**.
+- 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
+- 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
 - 📫 Reach me: **royramu694429@gmail.com**
+
+---
+
+### 🧑‍💻 Experience
+
+**🐧 Embedded Linux OS Developer — eOS** &nbsp;·&nbsp; *Mar 2026 – Present*
+> Custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange.
+
+**🏗️ Embedded Systems Engineer Intern — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
+> Built an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel BlueScope**. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
+
+**🔧 R&D Engineer — Ampnics** &nbsp;·&nbsp; *Mar 2025 – Sep 2025 (Remote)*
+> Contributed to **open-source hardware** — designed and reviewed PCB schematics & layouts, and supported rapid prototyping through circuit testing, debugging, and iterative design.
 
 ---
 
 ### 🧰 Tech & Tools
 
+**Languages**
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+**Embedded Linux & Firmware**
+![Yocto](https://img.shields.io/badge/Yocto%20Project-1f4e79?style=for-the-badge&logo=yocto&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![ESP32](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![FreeRTOS](https://img.shields.io/badge/FreeRTOS-4FA94D?style=for-the-badge&logo=freebsd&logoColor=white)
+
+**Systems & Data**
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![D-Bus](https://img.shields.io/badge/D--Bus-A42E2B?style=for-the-badge&logo=freedesktopdotorg&logoColor=white)
+
+**ML, UI & EDA**
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![Qt](https://img.shields.io/badge/Qt6%20%2F%20QML-41CD52?style=for-the-badge&logo=qt&logoColor=white)
 ![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
-![Blynk](https://img.shields.io/badge/Blynk%20IoT-2E6BA8?style=for-the-badge&logo=blueprint&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+> **Protocols:** UART · SPI · I²C · CAN · RS485 (MODBUS RTU) · BLE · ESP-NOW · LoRa · UWB
 
 ---
 
@@ -53,12 +87,12 @@ struct Developer {
 |---|---|---|
 | ⚡ [**Transformerless Power Supply**](https://github.com/ramuroy/Transformerless-Power-Supply) | 220V AC → 5V DC supply designed in KiCad — my most-starred build ⭐ | KiCad · Hardware |
 | 🔋 [**LM2596 5V Buck Converter**](https://github.com/ramuroy/LM2596-5V-Buck-Converter-PCB-Design) | Efficient switching regulator PCB for stable power delivery | KiCad · PCB |
-| 🔍 [**Real-Time Object Detection over SPI**](https://github.com/ramuroy/Real-Time-Object-Detection-using-SPI-Protocol-between-ESP32-and-Arduino) | ESP32 (master) ↔ Arduino (slave) talking over SPI with an IR sensor | C++ · ESP32 · SPI |
-| 🌡️ [**RTOS Weather Logger**](https://github.com/ramuroy/RTOS-Weather-Logger) | ESP32 + DHT11 logging temp/humidity to the Blynk app in real time | C · FreeRTOS · IoT |
+| 🔍 [**Object Detection over SPI**](https://github.com/ramuroy/Real-Time-Object-Detection-using-SPI-Protocol-between-ESP32-and-Arduino) | ESP32 (master) ↔ Arduino (slave) talking over SPI with an IR sensor | C++ · ESP32 · SPI |
+| 🌡️ [**RTOS Weather Logger**](https://github.com/ramuroy/RTOS-Weather-Logger) | ESP32 + DHT11 logging temp/humidity to Blynk with FreeRTOS scheduling | C · FreeRTOS · IoT |
 | 💡 [**FreeRTOS Multitasking LEDs**](https://github.com/ramuroy/FreeRTOS-Multitasking-LEDs) | Independent LED control via FreeRTOS tasks — a clean RTOS primer | C · FreeRTOS |
-| 🔥 [**Fire Detection System**](https://github.com/ramuroy/Fire-Detection-System) | Smoke-triggered LED + buzzer alert for early fire warnings | C++ · Arduino |
+| 🔥 [**Fire Detection System**](https://github.com/ramuroy/Fire-Detection-System) | MQ-2 smoke-triggered LED + buzzer alert for early fire warnings | C++ · Arduino |
 
-> 📂 ...and plenty more — Morse Caster, Water Level Detector, Digital Dice, Rain Detector & more on the [repos tab](https://github.com/ramuroy?tab=repositories).
+> 📂 ...and more on the [repos tab](https://github.com/ramuroy?tab=repositories) — Morse Caster, Water Level Detector, Servo Tester, Digital Dice & beyond.
 
 ---
 
@@ -91,22 +125,27 @@ struct Developer {
 
 ---
 
+### 🎓 Certifications & Languages
+
+- 📜 **NPTEL** — Embedded Sensing, Actuation and Interfacing Systems *(85%)*
+- 📜 **NPTEL** — Electronic Systems Design: Circuits & PCB Design with CAD *(88%)*
+- 🗣️ **Languages:** English (Proficient) · Telugu (Native) · Hindi (Native)
+
+---
+
 <div align="center">
 
 ### 🤝 Connect
 
+<a href="https://www.linkedin.com/in/ramu-roy-b780382b7">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
 <a href="mailto:royramu694429@gmail.com">
   <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<!-- Add your real links below and uncomment 👇 -->
-<!--
-<a href="https://www.linkedin.com/in/YOUR_HANDLE">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
--->
 
 <br/><br/>
 
-<i>⚡ "First it blinks, then it thinks." ⚡</i>
+<i>⚡ "First it blinks, then it thinks — then it ships." ⚡</i>
 
 </div>
