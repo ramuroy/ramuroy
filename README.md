@@ -22,7 +22,7 @@ struct Engineer {
     char  role[]      = "Embedded Linux & Firmware Engineer";
     char  focus[]     = "Embedded Linux | Firmware | On-Device ML";
     char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
-    char  building[]  = "eOS — a custom Yocto Linux distro for the Raspberry Pi 5";
+    char  building[]  = "eOS @ Elipse — a custom Yocto Linux distro for the RPi 5";
     char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel BlueScope";
     char  studies[]   = "B.Tech ECE, RGUKT Srikakulam (CGPA 8.3/10)";
     bool  ships_real_hardware = true;
@@ -39,8 +39,8 @@ struct Engineer {
 
 ### 🧑‍💻 Experience
 
-**🐧 Embedded Linux OS Developer — eOS** &nbsp;·&nbsp; *Mar 2026 – Present*
-> Custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange.
+**🐧 Embedded Systems Engineer — Elipse** &nbsp;·&nbsp; *May 2026 – Present*
+> Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange.
 
 **🏗️ Embedded Systems Engineer Intern — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
 > Built an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel BlueScope**. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
