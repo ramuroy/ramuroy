@@ -9,6 +9,7 @@
 <img src="https://komarev.com/ghpvc/?username=ramuroy&label=Profile%20Views&color=00e5ff&style=flat-square" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/ramuroy?label=Followers&style=flat-square&color=00e5ff" alt="Followers" />
 <img src="https://img.shields.io/badge/Open%20to-Embedded%20Roles-1f9b4e?style=flat-square" alt="Open to roles" />
+<a href="https://ramuroy.github.io"><img src="https://img.shields.io/badge/Portfolio-ramuroy.github.io-00e5ff?style=flat-square&logo=astro&logoColor=white" alt="Portfolio" /></a>
 
 </div>
 
@@ -33,6 +34,7 @@ struct Engineer {
 - 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel BlueScope**.
 - 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
 - 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
+- 🌐 Portfolio: **[ramuroy.github.io](https://ramuroy.github.io)**
 - 📫 Reach me: **royramu694429@gmail.com**
 
 ---
