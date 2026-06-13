@@ -39,7 +39,7 @@ struct Engineer {
 
 ### 🧑‍💻 Experience
 
-**🐧 Embedded Systems Engineer — Elipse** &nbsp;·&nbsp; *May 2026 – Present*
+**🐧 Embedded Systems Engineer — Elipse, Hyderabad** &nbsp;·&nbsp; *May 2026 – Present*
 > Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange.
 
 **🏗️ Embedded Systems Engineer Intern — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
