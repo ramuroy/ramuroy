@@ -18,7 +18,7 @@
 ```c
 struct Developer {
     char  name[]      = "Ramu Roy";
-    int   age         = 19;
+    int   age         = 21;
     char  focus[]     = "Embedded Systems & IoT";
     char  toolkit[]   = "Arduino, ESP32, FreeRTOS, KiCad";
     char  superpower[]= "Organizing chaos & catching every typo";
