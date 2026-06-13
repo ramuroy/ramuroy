@@ -103,7 +103,7 @@ struct Engineer {
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=ramuroy&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats" />
 <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramuroy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ramuroy&theme=tokyonight&hide_border=true" alt="Streak" />
+<img src="https://streak-stats.demolab.com/?user=ramuroy&theme=tokyonight&hide_border=true" alt="Streak" />
 
 <img src="https://github-profile-trophy.vercel.app/?username=ramuroy&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" />
 
