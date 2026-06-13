@@ -105,8 +105,6 @@ struct Engineer {
 
 <img src="https://streak-stats.demolab.com/?user=ramuroy&theme=tokyonight&hide_border=true" alt="Streak" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=ramuroy&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies" />
-
 </div>
 
 ---
