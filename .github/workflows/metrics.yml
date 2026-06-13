@@ -1,0 +1,42 @@
+name: Metrics
+
+on:
+  # refresh once a day
+  schedule:
+    - cron: "30 0 * * *"
+  # allow manual runs from the Actions tab
+  workflow_dispatch:
+  # NOTE: intentionally NO "push" trigger — metrics commits its SVG to main with
+  # the PAT, which would re-trigger a push-based run and loop forever.
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ramuroy
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+
+          # language breakdown
+          plugin_languages: yes
+          plugin_languages_details: percentage
+          plugin_languages_limit: 8
+
+          # isometric 3D contribution calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # coding habits & facts
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
