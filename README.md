@@ -111,6 +111,16 @@ struct Engineer {
 
 ---
 
+### 📈 In-Depth Metrics
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/ramuroy/ramuroy/main/github-metrics.svg" alt="Detailed GitHub metrics — languages, activity, isometric calendar, habits" />
+
+</div>
+
+---
+
 ### 🐍 Watch the snake eat my commits
 
 <div align="center">
