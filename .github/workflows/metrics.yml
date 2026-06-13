@@ -36,7 +36,6 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # coding habits & facts
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          # lines of code changed across repos (reliable; replaces flaky habits plugin)
+          plugin_lines: yes
+          plugin_lines_sections: base
