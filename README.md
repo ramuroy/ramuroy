@@ -91,6 +91,7 @@ struct Engineer {
 | 🔋 [**LM2596 5V Buck Converter**](https://github.com/ramuroy/LM2596-5V-Buck-Converter-PCB-Design) | Efficient switching regulator PCB for stable power delivery | KiCad · PCB |
 | 🔍 [**Object Detection over SPI**](https://github.com/ramuroy/Real-Time-Object-Detection-using-SPI-Protocol-between-ESP32-and-Arduino) | ESP32 (master) ↔ Arduino (slave) talking over SPI with an IR sensor | C++ · ESP32 · SPI |
 | 🌡️ [**RTOS Weather Logger**](https://github.com/ramuroy/RTOS-Weather-Logger) | ESP32 + DHT11 logging temp/humidity to Blynk with FreeRTOS scheduling | C · FreeRTOS · IoT |
+| ☀️ [**Solar Track**](https://github.com/ramuroy/Solar-Track) | Dual-axis sun tracker — 4 shaded LDRs steer two servos to keep a panel facing the sun | C++ · Arduino · Servo |
 | 💡 [**FreeRTOS Multitasking LEDs**](https://github.com/ramuroy/FreeRTOS-Multitasking-LEDs) | Independent LED control via FreeRTOS tasks — a clean RTOS primer | C · FreeRTOS |
 | 🔥 [**Fire Detection System**](https://github.com/ramuroy/Fire-Detection-System) | MQ-2 smoke-triggered LED + buzzer alert for early fire warnings | C++ · Arduino |
 
