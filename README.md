@@ -2,7 +2,7 @@
 
 <!-- Animated typing header -->
 <a href="https://github.com/ramuroy">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&height=60&lines=Embedded+Systems+Engineer;Hardware+%C2%B7+Firmware+%C2%B7+Embedded+Linux+%C2%B7+On-Device+ML;Yocto+%C2%B7+ESP-IDF+%C2%B7+STM32+%C2%B7+Rust;From+PCB+design+to+custom+Linux+distros+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&height=60&lines=Embedded+Systems+Engineer;Hardware+%C2%B7+Firmware+%C2%B7+Embedded+Linux+%C2%B7+On-Device+ML;Yocto+%C2%B7+ESP-IDF+%C2%B7+STM32+%C2%B7+Rust;From+PCB+design+to+custom+Linux+distros+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <!-- Badges -->
