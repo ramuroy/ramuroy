@@ -2,7 +2,7 @@
 
 <!-- Animated typing header -->
 <a href="https://github.com/ramuroy">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&height=60&lines=Embedded+Linux+%26+Firmware+Engineer;Yocto+%C2%B7+ESP-IDF+%C2%B7+STM32+%C2%B7+Rust;On-Device+ML+%26+Voice+Systems;Bare-metal+to+custom+Linux+distros+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00E5FF&center=true&vCenter=true&width=720&height=60&lines=Embedded+Systems+Engineer;Hardware+%C2%B7+Firmware+%C2%B7+Embedded+Linux+%C2%B7+On-Device+ML;Yocto+%C2%B7+ESP-IDF+%C2%B7+STM32+%C2%B7+Rust;From+PCB+design+to+custom+Linux+distros+%E2%9A%99%EF%B8%8F" alt="Typing SVG" />
 </a>
 
 <!-- Badges -->
@@ -20,8 +20,8 @@
 ```c
 struct Engineer {
     char  name[]      = "Ramu Roy";
-    char  role[]      = "Embedded Linux & Firmware Engineer";
-    char  focus[]     = "Embedded Linux | Firmware | On-Device ML";
+    char  role[]      = "Embedded Systems Engineer";
+    char  focus[]     = "Hardware | Firmware | Embedded Linux | On-Device ML";
     char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
     char  building[]  = "eOS @ Elipse — a custom Yocto Linux distro for the RPi 5";
     char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel BlueScope";
@@ -30,7 +30,7 @@ struct Engineer {
 };
 ```
 
-- ⚙️ I work **the whole stack** — from bare-metal STM32 firmware and ESP-IDF, up through Yocto-based custom Linux, to on-device ML.
+- ⚙️ I work **the whole stack** — from **PCB/KiCad hardware design** and bare-metal STM32/ESP-IDF firmware, up through Yocto-based custom Linux, to on-device ML.
 - 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel BlueScope**.
 - 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
 - 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
