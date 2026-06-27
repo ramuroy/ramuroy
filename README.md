@@ -61,11 +61,11 @@ struct Engineer {
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 **Embedded Linux & Firmware**
-![Yocto](https://img.shields.io/badge/Yocto%20Project-1f4e79?style=for-the-badge&logo=yocto&logoColor=white)
+![Yocto](https://img.shields.io/badge/Yocto%20Project-1f4e79?style=for-the-badge&logo=yoctoproject&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![ESP32](https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-4FA94D?style=for-the-badge&logo=freebsd&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-4FA94D?style=for-the-badge)
 
 **Systems & Data**
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
