@@ -24,6 +24,8 @@ struct Engineer {
     char  focus[]     = "Hardware | Firmware | Embedded Linux | On-Device ML";
     char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
     char  building[]  = "eOS @ Elipse — a custom Yocto Linux distro for the RPi 5";
+    char  boards[]    = "3 control PCBs designed in KiCad — 2 fabricated, 1 in the field";
+    char  side[]      = "pcbrouter (KiCad autorouter in Rust) · Ember (a personal OS)";
     char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel BlueScope";
     char  studies[]   = "B.Tech ECE, RGUKT Srikakulam (CGPA 8.3/10)";
     bool  ships_real_hardware = true;
@@ -31,6 +33,7 @@ struct Engineer {
 ```
 
 - ⚙️ I work **the whole stack** — from **PCB/KiCad hardware design** and bare-metal STM32/ESP-IDF firmware, up through Yocto-based custom Linux, to on-device ML.
+- 🛠️ I design the boards too: **three control PCBs in KiCad**, schematic through layout to the fabrication package. A 24 V room controller is **live in three rooms**; a 48 V, 16-channel, four-layer floor controller with on-board Ethernet is routed and packaged for fab.
 - 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel BlueScope**.
 - 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
 - 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
@@ -42,7 +45,7 @@ struct Engineer {
 ### 🧑‍💻 Experience
 
 **🐧 Embedded Systems Engineer — Elipse, Hyderabad** &nbsp;·&nbsp; *May 2026 – Present*
-> Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange.
+> Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange. Design the fleet's **control boards in KiCad** end to end — a 24 V room controller (v2 re-spun at −57 % board area, live in three rooms), a **48 V / 16-channel / 24 A four-layer** floor controller with 100 Ω differential Ethernet pairs, and a SELV wall keypad.
 
 **🏗️ Embedded Systems Engineer Intern — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
 > Built an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel BlueScope**. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
@@ -83,19 +86,41 @@ struct Engineer {
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Selected Work — 2026
 
-| Project | What it does | Tech |
+Most of this year's work lives in **employer or private repositories**, so the rows below say what
+exists and where rather than linking to code that isn't mine to publish. Full write-ups with the
+measured numbers are on the **[portfolio](https://ramuroy.github.io)**.
+
+| Project | What it is | Where |
 |---|---|---|
-| ⚡ [**Transformerless Power Supply**](https://github.com/ramuroy/Transformerless-Power-Supply) | 220V AC → 5V DC supply designed in KiCad — my most-starred build ⭐ | KiCad · Hardware |
-| 🔋 [**LM2596 5V Buck Converter**](https://github.com/ramuroy/LM2596-5V-Buck-Converter-PCB-Design) | Efficient switching regulator PCB for stable power delivery | KiCad · PCB |
-| 🔍 [**Object Detection over SPI**](https://github.com/ramuroy/Real-Time-Object-Detection-using-SPI-Protocol-between-ESP32-and-Arduino) | ESP32 (master) ↔ Arduino (slave) talking over SPI with an IR sensor | C++ · ESP32 · SPI |
-| 🌡️ [**RTOS Weather Logger**](https://github.com/ramuroy/RTOS-Weather-Logger) | ESP32 + DHT11 logging temp/humidity to Blynk with FreeRTOS scheduling | C · FreeRTOS · IoT |
-| ☀️ [**Solar Track**](https://github.com/ramuroy/Solar-Track) | Dual-axis sun tracker — 4 shaded LDRs steer two servos to keep a panel facing the sun | C++ · Arduino · Servo |
-| 💡 [**FreeRTOS Multitasking LEDs**](https://github.com/ramuroy/FreeRTOS-Multitasking-LEDs) | Independent LED control via FreeRTOS tasks — a clean RTOS primer | C · FreeRTOS |
-| 🔥 [**Fire Detection System**](https://github.com/ramuroy/Fire-Detection-System) | MQ-2 smoke-triggered LED + buzzer alert for early fire warnings | C++ · Arduino |
+| 🟩 **eOS Zone Controller** | 48 V, sixteen 12-bit PWM channels at 24 A / 1,152 W, **four layers** on an impedance-controlled stackup with 100 Ω differential Ethernet pairs. Routing closed at **0 unconnected**; DC review at 19.9 mV against a 50 mV bound; fab package cut. | Elipse · private |
+| 🟩 **eOS Room Controller** | 24 V per-room board — 8 dimmable PWM channels, addressable RGB, wired Ethernet, I²S mic bridge. v1 fabbed and in service; **v2 re-spun at −57 % area** and now live in three rooms. | Elipse · private |
+| 🟩 **eOS Switchboard** | SELV wall control surface, 145 × 70 mm, ESP32-S3, 30 addressable indicators, CAN uplink. Fabricated; board #1 in bring-up. | Elipse · private |
+| 🦀 **pcbrouter** | A **KiCad-native PCB autorouter** in Rust on exact integer geometry — no clearance decision touches floating point. Loader dump field-identical to `pcbnew` across 1,212 footprints; output judged by KiCad's own DRC. Apache-2.0. | private for now |
+| 🔥 **Ember** | A personal OS: an existing Linux kernel and a Yocto userland with **systemd removed** and replaced by two programs written from scratch in Rust — `spark`, a PID 1 and service manager, and `hearth`, the login shell. Boots real hardware over UEFI with signed A/B updates. | private for now |
+| 🏗️ [**Industrial Anti-Collision System**](https://github.com/ramuroy/Industrial-Anti-Collision-System) | Dual-core ESP32-S3 UWB crane safety system — **deployed at Tata Steel BlueScope**. ESP-NOW links, MODBUS RTU/RS485 to an 8-channel relay bank. | ✅ public |
 
-> 📂 ...and more on the [repos tab](https://github.com/ramuroy?tab=repositories) — Morse Caster, Water Level Detector, Servo Tester, Digital Dice & beyond.
+<details>
+<summary><b>Earlier work — 2024–25 learning projects</b></summary>
+
+<br/>
+
+Hardware: [Transformerless Power Supply](https://github.com/ramuroy/Transformerless-Power-Supply) ·
+[LM2596 Buck Converter](https://github.com/ramuroy/LM2596-5V-Buck-Converter-PCB-Design) ·
+[5V→3.3V Regulator](https://github.com/ramuroy/5V-to-3.3V-Voltage-Regulator-PCB-Design) ·
+[AC-to-DC Converter](https://github.com/ramuroy/AC-to-DC-Converter-PCB) ·
+[Servo Tester (NE555)](https://github.com/ramuroy/Servo-Tester-NE555)
+
+Firmware & IoT: [RTOS Weather Logger](https://github.com/ramuroy/RTOS-Weather-Logger) ·
+[FreeRTOS Multitasking LEDs](https://github.com/ramuroy/FreeRTOS-Multitasking-LEDs) ·
+[Solar Track](https://github.com/ramuroy/Solar-Track) ·
+[Object Detection over SPI](https://github.com/ramuroy/Real-Time-Object-Detection-using-SPI-Protocol-between-ESP32-and-Arduino) ·
+[Fire Detection](https://github.com/ramuroy/Fire-Detection-System) ·
+[Water Level Detector](https://github.com/ramuroy/Water-Level-Detector) ·
+[Morse Caster](https://github.com/ramuroy/Morse-Caster)
+
+</details>
 
 ---
 
