@@ -47,10 +47,10 @@ struct Engineer {
 **🐧 Embedded Systems Engineer — Elipse, Hyderabad** &nbsp;·&nbsp; *May 2026 – Present*
 > Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange. Design the fleet's **control boards in KiCad** end to end — a 24 V room controller (v2 re-spun at −57 % board area, live in three rooms), a **48 V / 16-channel / 24 A four-layer** floor controller with 100 Ω differential Ethernet pairs, and a SELV wall keypad.
 
-**🏗️ Embedded Systems Engineer Intern — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
+**🏗️ Embedded Engineer — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
 > Built an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel BlueScope**. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
 
-**🔧 R&D Engineer — Ampnics** &nbsp;·&nbsp; *Mar 2025 – Sep 2025 (Remote)*
+**🔧 R&D Engineer Intern — Ampnics** &nbsp;·&nbsp; *Mar 2025 – Sep 2025 (Mumbai, Hybrid)*
 > Contributed to **open-source hardware** — designed and reviewed PCB schematics & layouts, and supported rapid prototyping through circuit testing, debugging, and iterative design.
 
 ---
@@ -165,7 +165,7 @@ Firmware & IoT: [RTOS Weather Logger](https://github.com/ramuroy/RTOS-Weather-Lo
 
 - 📜 **NPTEL** — Embedded Sensing, Actuation and Interfacing Systems *(85%)*
 - 📜 **NPTEL** — Electronic Systems Design: Circuits & PCB Design with CAD *(88%)*
-- 🗣️ **Languages:** English (Proficient) · Telugu (Native) · Hindi (Native)
+- 🗣️ **Languages:** English (Proficient) · Telugu (Native) · Hindi (Native) · Japanese (Professional working)
 
 ---
 
