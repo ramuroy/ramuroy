@@ -24,7 +24,7 @@ struct Engineer {
     char  focus[]     = "Hardware | Firmware | Embedded Linux | On-Device ML";
     char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
     char  building[]  = "eOS @ Elipse — a custom Yocto Linux distro for the RPi 5";
-    char  boards[]    = "3 control PCBs designed in KiCad — 2 fabricated, 1 in the field";
+    char  boards[]    = "5 control PCBs designed in KiCad — 2 fabricated, 2 at fab, 1 in the field";
     char  side[]      = "Ember (a personal OS) · freelance PCB design";
     char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel Colors";
     char  studies[]   = "B.Tech ECE, RGUKT Srikakulam (CGPA 8.3/10)";
@@ -33,7 +33,7 @@ struct Engineer {
 ```
 
 - ⚙️ I work **the whole stack** — from **PCB/KiCad hardware design** and bare-metal STM32/ESP-IDF firmware, up through Yocto-based custom Linux, to on-device ML.
-- 🛠️ I design the boards too: **three control PCBs in KiCad**, schematic through layout to the fabrication package. A 24 V room controller is **live in three rooms**; a 48 V, 16-channel, four-layer floor controller with on-board Ethernet is routed and packaged for fab.
+- 🛠️ I design the boards too: **five control PCBs in KiCad**, schematic through layout to the fabrication package. A 24 V room controller is **live in three rooms**; a 48 V, 16-channel, four-layer floor controller with on-board Ethernet was routed and packaged for fab, and its two-layer RS-485 successor and a room-sensing node are now in fabrication.
 - 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel Colors** (formerly Tata BlueScope Steel).
 - 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
 - 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
@@ -45,7 +45,7 @@ struct Engineer {
 ### 🧑‍💻 Experience
 
 **🐧 Embedded Systems Engineer — Elipse, Hyderabad** &nbsp;·&nbsp; *May 2026 – Present*
-> Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange. Design the fleet's **control boards in KiCad** end to end — a 24 V room controller (v2 re-spun at −57 % board area, live in three rooms), a **48 V / 16-channel / 24 A four-layer** floor controller with 100 Ω differential Ethernet pairs, and a SELV wall keypad.
+> Building **eOS**, Elipse's custom **Yocto/OpenEmbedded** Linux distro for the **Raspberry Pi 5** (A/B RAUC OTA rootfs, MQTT service bus, SQLite, Qt6/QML UI). Authored Yocto recipes across the `meta-eos` layer; designed `systemd` services, **D-Bus** interfaces, and a hardened Mosquitto MQTT broker. Built a generic **Rust** sensor-fusion framework and an on-device **voice subsystem** (transfer-learned wake-word → Whisper STT → Piper TTS, ONNX via `tract`). Wrote **ESP-IDF** firmware for ESP32 satellites with BLE provisioning, EC P-256 keypairs, and X.509 CSR exchange. Design the fleet's **control boards in KiCad** end to end — a 24 V room controller (v2 re-spun at −57 % board area, live in three rooms), a **48 V / 16-channel / 24 A four-layer** floor controller with 100 Ω differential Ethernet pairs and its two-layer RS-485 successor, a room-sensing node, and a SELV wall keypad.
 
 **🔌 Freelance PCB Design — Remote** &nbsp;·&nbsp; *Oct 2026 – Present*
 > Fixed the schematic of a client's secure USB-stick board (**STM32U5**, eMMC, secure element), then placed and routed it to **ERC 0 and DRC 0 errors, 0 warnings, 0 unconnected**, and wrote a 55-page self-study guide delivered with the design files. Now redesigning a client's 1S power bank with a new charger, output stage, fuel gauge and safety microcontroller: the charger and safety schematics and a two-layer pack BMS board are designed; the output and ESP32 sheets and the four-layer main board are still to do.
@@ -98,6 +98,8 @@ measured numbers are on the **[portfolio](https://ramuroy.github.io)**.
 | Project | What it is | Where |
 |---|---|---|
 | 🟩 **eOS Zone Controller** | 48 V, sixteen 12-bit PWM channels at 24 A / 1,152 W, **four layers** on an impedance-controlled stackup with 100 Ω differential Ethernet pairs. Routing closed at **0 unconnected**; DC review at 19.9 mV against a 50 mV bound; fab package cut. | Elipse · private |
+| 🟩 **eOS Zone Controller · Board A** | V2's two-layer successor: Ethernet replaced by an isolated RS-485 Modbus RTU link, 14 low-side outputs (two 4 A, four 2 A, eight 1 A) inside 6 A groups and a 24 A board. ERC and DRC clean at **0 unconnected**; DC, thermal and short-circuit screens pass. In fabrication. | Elipse · private |
+| 🟩 **eOS Room-Sensing Node** | 85 × 70 mm, two layers: ESP32-S3 on the RS-485 bus as a Modbus slave, with ports for a temperature, humidity and light pod, mmWave radar, an XVF3800 microphone array and two IR blasters. Verified; in fabrication. | Elipse · private |
 | 🟩 **eOS Room Controller** | 24 V per-room board — 8 dimmable PWM channels, addressable RGB, wired Ethernet, I²S mic bridge. v1 fabbed and in service; **v2 re-spun at −57 % area** and now live in three rooms. | Elipse · private |
 | 🟩 **eOS Switchboard** | SELV wall control surface, 145 × 70 mm, ESP32-S3, 30 addressable indicators, CAN uplink. Fabricated; board #1 in bring-up. | Elipse · private |
 | 🔥 **Ember** | A personal OS: an existing Linux kernel and a Yocto userland with **systemd removed** and replaced by two programs written from scratch in Rust — `spark`, a PID 1 and service manager, and `hearth`, the login shell. Boots real hardware over UEFI with signed A/B updates. | private for now |
