@@ -25,7 +25,7 @@ struct Engineer {
     char  stack[]     = "C/C++, Rust, Python, Yocto, ESP-IDF, STM32";
     char  building[]  = "eOS @ Elipse — a custom Yocto Linux distro for the RPi 5";
     char  boards[]    = "3 control PCBs designed in KiCad — 2 fabricated, 1 in the field";
-    char  side[]      = "pcbrouter (KiCad autorouter in Rust) · Ember (a personal OS)";
+    char  side[]      = "Ember (a personal OS) · freelance PCB design";
     char  shipped[]   = "Industrial Anti-Collision System @ Tata Steel Colors";
     char  studies[]   = "B.Tech ECE, RGUKT Srikakulam (CGPA 8.3/10)";
     bool  ships_real_hardware = true;
@@ -97,7 +97,6 @@ measured numbers are on the **[portfolio](https://ramuroy.github.io)**.
 | 🟩 **eOS Zone Controller** | 48 V, sixteen 12-bit PWM channels at 24 A / 1,152 W, **four layers** on an impedance-controlled stackup with 100 Ω differential Ethernet pairs. Routing closed at **0 unconnected**; DC review at 19.9 mV against a 50 mV bound; fab package cut. | Elipse · private |
 | 🟩 **eOS Room Controller** | 24 V per-room board — 8 dimmable PWM channels, addressable RGB, wired Ethernet, I²S mic bridge. v1 fabbed and in service; **v2 re-spun at −57 % area** and now live in three rooms. | Elipse · private |
 | 🟩 **eOS Switchboard** | SELV wall control surface, 145 × 70 mm, ESP32-S3, 30 addressable indicators, CAN uplink. Fabricated; board #1 in bring-up. | Elipse · private |
-| 🦀 **pcbrouter** | A **KiCad-native PCB autorouter** in Rust on exact integer geometry — no clearance decision touches floating point. Loader dump field-identical to `pcbnew` across 1,212 footprints; output judged by KiCad's own DRC. Apache-2.0. | private for now |
 | 🔥 **Ember** | A personal OS: an existing Linux kernel and a Yocto userland with **systemd removed** and replaced by two programs written from scratch in Rust — `spark`, a PID 1 and service manager, and `hearth`, the login shell. Boots real hardware over UEFI with signed A/B updates. | private for now |
 | 🏗️ [**Industrial Anti-Collision System**](https://github.com/ramuroy/Industrial-Anti-Collision-System) | Dual-core ESP32-S3 UWB crane safety system — **deployed at Tata Steel Colors**. ESP-NOW links, MODBUS RTU/RS485 to an 8-channel relay bank. | ✅ public |
 
