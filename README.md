@@ -34,7 +34,7 @@ struct Engineer {
 
 - ⚙️ I work **the whole stack** — from **PCB/KiCad hardware design** and bare-metal STM32/ESP-IDF firmware, up through Yocto-based custom Linux, to on-device ML.
 - 🛠️ I design the boards too: **five control PCBs in KiCad**, schematic through layout to fabrication release. A 24 V room controller is **live in three rooms**; I also designed a 48 V, 16-channel, four-layer floor controller with on-board Ethernet, its two-layer RS-485 successor, and a room-sensing node.
-- 🏭 My firmware runs in the field: an industrial **Anti-Collision System** I built is deployed at **Tata Steel Colors** (formerly Tata BlueScope Steel).
+- 🏭 My work runs in the field: an industrial **Anti-Collision System** I built, hardware and firmware, is deployed at **Tata Steel Colors** (formerly Tata BlueScope Steel).
 - 🐧 Currently building **eOS** — a Yocto/OpenEmbedded Linux distribution for the Raspberry Pi 5 with A/B RAUC OTA, an MQTT service bus, and a Qt6/QML UI.
 - 🎙️ Into **on-device voice & ML** — wake-word detection, Whisper STT, Piper TTS, and multi-mic fusion running on the edge in Rust.
 - 🌐 Portfolio: **[ramuroy.github.io](https://ramuroy.github.io)**
@@ -51,7 +51,7 @@ struct Engineer {
 > Corrected the schematic and completed placement and routing of a client's secure USB-stick board (**STM32U5**, eMMC, secure element), delivering the full design files with a 55-page design guide. Now redesigning a client's 1S power bank: new charger, output stage, fuel gauge and safety microcontroller, with a dedicated two-layer pack BMS board.
 
 **🏗️ Embedded Engineer — Radiogeet** &nbsp;·&nbsp; *Sep 2025 – Mar 2026*
-> Built an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel Colors**. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
+> Built the hardware and firmware of an industrial **Anti-Collision System** for crane operations, **deployed at Tata Steel Colors**. Chose the hardware, wired and integrated the Masibus DO cards and the 8-channel relay system, built the RS485 links between nodes, and commissioned it on site. Dual-core **ESP32-S3** firmware: one core for real-time **UWB** proximity ranging, the other for zone-safety logic + an embedded web UI. Used **ESP-NOW** for low-latency node-to-node links and **MODBUS RTU over RS485** to drive an 8-channel industrial relay system. Also interfaced AHT10 / ADS1115 with **STM32** and worked with LoRa and Masibus industrial I/O cards.
 
 **🔧 R&D Engineer Intern — Ampnics** &nbsp;·&nbsp; *Mar 2025 – Sep 2025 (Mumbai, Hybrid)*
 > Contributed to **open-source hardware** — designed and reviewed PCB schematics & layouts, and supported rapid prototyping through circuit testing, debugging, and iterative design.
